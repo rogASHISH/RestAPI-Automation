@@ -23,8 +23,8 @@ To run this project locally, ensure you have the following installed:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/RestAssured-API-Automation.git
-cd RestAssured-API-Automation
+git clone https://github.com/rogASHISH/RestAPI-Automation.git
+cd RestAPI-Automation
 ```
 2. Install Dependencies
 Ensure you have Maven installed and set up in your system. Then run the following command to install all required dependencies:
