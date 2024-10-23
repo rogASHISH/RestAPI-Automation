@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-23T18:06:23 IST" name="Default suite" finished-at="2024-10-23T18:06:32 IST" duration-ms="9016">
+    <groups>
+    </groups>
+    <test started-at="2024-10-23T18:06:23 IST" name="Default test" finished-at="2024-10-23T18:06:32 IST" duration-ms="9016">
+      <class name="com.automation.testCases.UserApiTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.automation.testCases.UserApiTest@71687585]" started-at="2024-10-23T18:06:23 IST" name="setup" finished-at="2024-10-23T18:06:24 IST" duration-ms="839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createUserTest(java.util.Map)[pri:0, instance:com.automation.testCases.UserApiTest@71687585]" started-at="2024-10-23T18:06:25 IST" name="createUserTest" data-provider="createUserData" finished-at="2024-10-23T18:06:29 IST" duration-ms="4933" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=John Doe, job=Software Engineer}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserTest -->
+        <test-method signature="deleteUserTest()[pri:0, instance:com.automation.testCases.UserApiTest@71687585]" started-at="2024-10-23T18:06:29 IST" name="deleteUserTest" finished-at="2024-10-23T18:06:30 IST" duration-ms="571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUserTest -->
+        <test-method signature="getUserByIdTest()[pri:0, instance:com.automation.testCases.UserApiTest@71687585]" started-at="2024-10-23T18:06:30 IST" name="getUserByIdTest" finished-at="2024-10-23T18:06:30 IST" duration-ms="365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserByIdTest -->
+        <test-method signature="getUsersTest()[pri:0, instance:com.automation.testCases.UserApiTest@71687585]" started-at="2024-10-23T18:06:30 IST" name="getUsersTest" finished-at="2024-10-23T18:06:31 IST" duration-ms="1039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUsersTest -->
+        <test-method signature="updateUserTest(java.util.Map)[pri:0, instance:com.automation.testCases.UserApiTest@71687585]" started-at="2024-10-23T18:06:32 IST" name="updateUserTest" data-provider="updateUserData" finished-at="2024-10-23T18:06:32 IST" duration-ms="605" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=Jane Doe, job=QA Engineer}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUserTest -->
+      </class> <!-- com.automation.testCases.UserApiTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
